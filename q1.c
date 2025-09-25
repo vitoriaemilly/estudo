@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define quantidade 10
+#define quantidade 40
 
 int main() {
     int pesquisa[quantidade];
@@ -22,7 +22,7 @@ int main() {
         printf("Quantidade com nota igual a %d:%d\n", j, cont);
     }
 
-    return 0;  // ✅ Faltava retornar 0 para indicar fim do programa
-}  // ✅ Fecha apenas o main
+    return 0;  
+}  
 
     
